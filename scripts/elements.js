@@ -17,11 +17,14 @@ export {
   sunButton,
   moonButton,
   html,
+  body,
   inputColor,
   cards
 }
 
 const html = document.querySelector('html');
+
+const body = document.querySelector('body');
 
 const sunButton = document.querySelector('.light');
 
