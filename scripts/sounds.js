@@ -62,7 +62,7 @@ export default function Sounds() {
       backgroundCard[index].classList.toggle('soundOnBackground');
       body.classList.toggle(backgounds[index]);
     })
-}
+  }
 
   return {
     pressButton,
