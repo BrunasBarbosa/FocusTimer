@@ -194,8 +194,12 @@ button {
   width: clamp(8rem, 1rem + 12vw, 11rem);
   border-radius: 10px;
   height: 0.4rem;
-  display: grid;
+  display: none;
   margin-bottom: clamp(2rem, 1.5rem + 2vw, 3rem);
+}
+
+.volume-shows {
+  display: grid;
 }
 
 input[type="range" i] {

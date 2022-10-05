@@ -19,7 +19,8 @@ export {
   html,
   body,
   inputColor,
-  cards
+  cards,
+  cardWrapper
 }
 
 const html = document.querySelector('html');
@@ -45,6 +46,8 @@ const lessButton = document.querySelector('.less');
 const buttons = document.querySelectorAll('.button');
 
 const cards = document.querySelectorAll('.card');
+
+const cardWrapper = document.querySelectorAll('.card-wrapper');
 
 const treeButton = document.querySelector('.tree');
 

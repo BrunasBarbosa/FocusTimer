@@ -17,7 +17,8 @@ import {
   sunButton,
   moonButton,
   inputColor,
-  cards
+  cards,
+  cardWrapper
 } from "./elements.js";
 
 const timer = Timer();
@@ -39,6 +40,16 @@ buttons.forEach((button) => {
 inputColor.forEach((input, index) => {
   input.addEventListener('input', () => {
     soundsList[index].volume = inputColor[index].value / 100;
+  })
+})
+
+cardWrapper.forEach((button, index) => {
+  button.addEventListener('mouseover', () => {
+    inputColor[index].classList.add('volume-shows');
+  })
+
+  button.addEventListener('mouseout', () => {
+    inputColor[index].classList.remove('volume-shows');
   })
 })
 
