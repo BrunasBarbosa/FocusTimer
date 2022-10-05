@@ -19,7 +19,8 @@ import {
   sunButton,
   moonButton,
   inputColor,
-  cards
+  cards,
+  body
 } from "./elements.js";
 
 const timer = Timer();
@@ -32,8 +33,11 @@ const theme = Theme();
 
 const soundsList = [sounds.woodSound, sounds.rainSound, sounds.shopSound, sounds.fireSound];
 
+const backgounds = ['bg-tree', 'bg-rain', 'bg-shop', 'bg-fire'];
+
 cards.forEach((button, index) => {
   button.addEventListener('click', function () {
+    body.classList.toggle(backgounds[index]);
     backgroundCard[index].classList.toggle('soundOnBackground');
     iconColor[index].classList.toggle('soundOnIcon');
     inputColor[index].classList.toggle('volumeOn');
