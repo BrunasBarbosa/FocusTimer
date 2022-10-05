@@ -1,4 +1,4 @@
-import { treeButton, rainButton, shopButton, fireButton, body } from "./elements.js"
+import { cards, treeButton, rainButton, shopButton, fireButton, backgroundCard, iconColor, inputColor, body } from "./elements.js"
 
 export default function Sounds() {
 
@@ -8,9 +8,7 @@ export default function Sounds() {
   const fireSound = new Audio("./audios/Lareira.wav");
   const buttonPressAudio = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/button-press.wav?raw=true");
   const kitchenTimer = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true");
-  const isActived = (element) => element.classList.toggle('buttonPressed');
-  const buttonPressed = shopButton.classList.contains('buttonPressed');
-  
+  const backgounds = ['bg-tree', 'bg-rain', 'bg-shop', 'bg-fire'];
 
   function pressButton() {
     buttonPressAudio.play();
@@ -21,8 +19,6 @@ export default function Sounds() {
   }
 
   function treeCardPressed() {
-    treeButton.classList.toggle('buttonPressed');
-
     if (treeButton.classList.contains('buttonPressed')) {
       woodSound.loop = true;
       woodSound.play()
@@ -32,8 +28,6 @@ export default function Sounds() {
   }
 
   function rainCardPressed() {
-    rainButton.classList.toggle('buttonPressed');
-
     if (rainButton.classList.contains('buttonPressed')) {
       rainSound.loop = true;
       rainSound.play();
@@ -43,8 +37,6 @@ export default function Sounds() {
   }
 
   function shopCardPressed() {
-    shopButton.classList.toggle('buttonPressed');
-
     if (shopButton.classList.contains('buttonPressed')) {
       shopSound.loop = true;
       shopSound.play();
@@ -54,8 +46,6 @@ export default function Sounds() {
   }
 
   function fireCardPressed() {
-    fireButton.classList.toggle('buttonPressed');
-
     if (fireButton.classList.contains('buttonPressed')) {
       fireSound.loop = true;
       fireSound.play();
@@ -64,6 +54,16 @@ export default function Sounds() {
     }
   }
 
+  function changeClassOnClick(button, index) {
+    button.addEventListener('click', function () {
+      cards[index].classList.toggle('buttonPressed');
+      iconColor[index].classList.toggle('soundOnIcon');
+      inputColor[index].classList.toggle('volumeOn');
+      backgroundCard[index].classList.toggle('soundOnBackground');
+      body.classList.toggle(backgounds[index]);
+    })
+}
+
   return {
     pressButton,
     timeIsOver,
@@ -71,6 +71,7 @@ export default function Sounds() {
     rainCardPressed,
     shopCardPressed,
     fireCardPressed,
+    changeClassOnClick,
     woodSound,
     rainSound,
     shopSound,

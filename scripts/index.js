@@ -14,13 +14,10 @@ import {
   rainButton,
   shopButton,
   fireButton,
-  backgroundCard,
-  iconColor,
   sunButton,
   moonButton,
   inputColor,
-  cards,
-  body
+  cards
 } from "./elements.js";
 
 const timer = Timer();
@@ -33,16 +30,7 @@ const theme = Theme();
 
 const soundsList = [sounds.woodSound, sounds.rainSound, sounds.shopSound, sounds.fireSound];
 
-const backgounds = ['bg-tree', 'bg-rain', 'bg-shop', 'bg-fire'];
-
-cards.forEach((button, index) => {
-  button.addEventListener('click', function () {
-    body.classList.toggle(backgounds[index]);
-    backgroundCard[index].classList.toggle('soundOnBackground');
-    iconColor[index].classList.toggle('soundOnIcon');
-    inputColor[index].classList.toggle('volumeOn');
-  })
-})
+cards.forEach(sounds.changeClassOnClick)
 
 buttons.forEach((button) => {
   button.addEventListener('click', sounds.pressButton);
@@ -86,3 +74,4 @@ fireButton.addEventListener('click', sounds.fireCardPressed);
 sunButton.addEventListener('click', theme.sunTheme);
 
 moonButton.addEventListener('click', theme.moonTheme);
+

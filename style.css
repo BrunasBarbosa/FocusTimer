@@ -169,10 +169,6 @@ button {
   gap: 3.2rem;
 }
 
-.cards button {
-  /* border-radius: 2.4rem; */
-}
-
 .card {
   position: relative;
 }
