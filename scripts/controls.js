@@ -42,6 +42,7 @@ export default function Controls() {
     if (!newMinutes) {
       return false;
     }
+
     return newMinutes;
   }
 
@@ -50,7 +51,7 @@ export default function Controls() {
     let newMinutes;
     newMinutes = currentMinutes + 5;
 
-    timer.updateDisplay(timer.updateMinutes(newMinutes), secondsDisplay.textContent);
+    timer.updateDisplay(newMinutes, secondsDisplay.textContent);
   }
 
   function lessFiveMinutes() {
@@ -66,7 +67,7 @@ export default function Controls() {
 
     newMinutes = minutes - 5;
 
-    timer.updateDisplay(timer.updateMinutes(newMinutes), seconds);
+    timer.updateDisplay(newMinutes, seconds);
   }
 
   return {

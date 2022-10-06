@@ -25,8 +25,8 @@ export default function Timer() {
   }
 
   function reset() {
-    updateDisplay(minutes, 0);
     hold();
+    updateDisplay(minutes, 0);
   }
 
   function hold() {
