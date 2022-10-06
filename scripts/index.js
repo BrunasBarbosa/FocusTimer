@@ -71,7 +71,7 @@ setButton.addEventListener('click', function () {
     return
   }
 
-  timer.updateDisplay(timer.updateMinutes(newMinutes), 0);
+  timer.updateDisplay(newMinutes, 0);
 });
 
 treeButton.addEventListener('click', sounds.treeCardPressed);
