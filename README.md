@@ -86,6 +86,8 @@ The cloud icon card has rain sound.
 ## ☕​ Coffee shop
 
 The store icon card has a coffee shop sound.
+
+##
 ## 🔥Bonfire
 
 The card with the flame icon contains the sound of burning wood.
