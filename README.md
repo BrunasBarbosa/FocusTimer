@@ -50,16 +50,44 @@ The stop button resets the timer and turn it back to the initial configure of 25
 
 ## ⏱️ Set
 
-The set button allows the user to set the amount of minutes they want. Clicking this button a window alert message shows asking the user to enter the number of minutes desired.
+The set button allows the user to set the amount of minutes they want. Clicking this button a window alert message shows asking the user to enter the number of minutes desired. If a number is entered the timer is updated to the new number, otherwise it reverts to the initial setting.
 
 ![preview](./.github/README06.gif)
 
 ##
 
-## ➕ Plus
+## ➕ Plus || ➖ Minus
 
-## ➖ Minus
+The plus button allows the user to add 5 minutes to the current time on the display and the minus button decrements 5 minutes from the current time on the display.
 
+![preview](./.github/README07.gif)
 
+>Cards
 
+The cards section contains four elements that represent environments, each one has an audio that will play during the card's activation time. 
 
+Each card also has a bar that allows the sound of the volume to be adjusted by the user, it will be visible when the pointer is over the element.
+
+When the card is activated the ambient sound starts, the background is changed according to the chosen card, light and dark modes has different backgrounds, the selected card will change colors signaling that it is activated.
+
+##
+## 🌳 Tree card
+
+The tree icon card has nature sound.
+
+##
+## 🌧️ Cloud card
+
+The cloud icon card has rain sound.
+
+##
+## ☕​ Coffee shop
+
+The store icon card has a coffee shop sound.
+## 🔥Bonfire
+
+The card with the flame icon contains the sound of burning wood.
+
+## 
+
+![preview](./.github/README08.gif)
