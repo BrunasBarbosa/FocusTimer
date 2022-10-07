@@ -102,3 +102,14 @@ The card with the flame icon contains the sound of burning wood.
 
 >Dark mode
 ![preview](./.github/README09.gif)
+
+🔗[Click here to access](https://brunasbarbosa.github.io/FocusTimer/)
+##
+## ⚙️ Technologies
+- HTML
+- CSS
+- JavaScript
+- Git and Github
+
+## ​💌 Contact me
+
