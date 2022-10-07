@@ -71,6 +71,8 @@ Each card also has a bar that allows the sound of the volume to be adjusted by t
 When the card is activated the ambient sound starts, the background is changed according to the chosen card, light and dark modes has different backgrounds, the selected card will change colors signaling that it is activated.
 
 ##
+<section align="center">
+
 ## 🌳 Tree card
 
 The tree icon card has nature sound.
@@ -89,5 +91,12 @@ The store icon card has a coffee shop sound.
 The card with the flame icon contains the sound of burning wood.
 
 ## 
+</section>
 
+>Light mode 
 ![preview](./.github/README08.gif)
+
+##
+
+>Dark mode
+![preview](./.github/README09.gif)
