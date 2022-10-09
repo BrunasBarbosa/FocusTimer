@@ -62,6 +62,8 @@ The plus button allows the user to add 5 minutes to the current time on the disp
 
 ![preview](./.github/README07.gif)
 
+[Back to top](#Table-of-contents)
+##
 # Cards
 
 The cards section contains four elements that represent environments, each one has an audio that will play during the card's activation time. 
@@ -96,6 +98,9 @@ The card with the flame icon contains the sound of burning wood.
 
 </section>
 
+[Back to top](#Table-of-contents)
+
+##
 # Theme
 
 The application operates in two modes: "light" mode and "dark" mode, represented by the sun and moon icons.
@@ -111,6 +116,9 @@ The application operates in two modes: "light" mode and "dark" mode, represented
 
 >Dark mode
 ![preview](./.github/README09.gif)
+
+[Back to top](#Table-of-contents)
+##
 
 🔗[Click here to access](https://brunasbarbosa.github.io/FocusTimer/)
 ##
