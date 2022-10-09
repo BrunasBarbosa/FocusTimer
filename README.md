@@ -18,9 +18,9 @@ You must do this for four times, after four "pomodoros" take a 30 minute break.
 # Table of contents
 
 <!--ts-->
-  * [Theme](#Theme)
   * [Controls](#Controls)
   * [Cards](#Cards)
+  * [Theme](#Theme)
 <!--te-->
 
 # Controls
