@@ -113,3 +113,12 @@ The card with the flame icon contains the sound of burning wood.
 
 ## ​💌 Contact me
 
+<a href="https://www.linkedin.com/in/brunas-barbosa/" target="_blank">
+ <img style="width: 64px; height: 64px;" src="https://user-images.githubusercontent.com/112329870/194765299-ca4bfc22-baaf-460c-be18-65d1be1ee2d4.png">
+</a>
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="mailto:brunas_barbosa@hotmail.com">
+  <img style="width: 64px; height: 64px;" src="https://user-images.githubusercontent.com/112329870/194765270-f85c3796-d3b1-40e5-ba97-ead03d5dc452.png">
+</a>
