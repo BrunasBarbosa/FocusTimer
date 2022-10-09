@@ -94,8 +94,6 @@ The store icon card has a coffee shop sound.
 
 The card with the flame icon contains the sound of burning wood.
 
-## 
-
 </section>
 
 [Back to top](#Table-of-contents)
