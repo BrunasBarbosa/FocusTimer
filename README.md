@@ -4,7 +4,7 @@
 
 ##
 
->About
+# About
 
 FocusTimer was developed to help people who have difficulty to keep focus.
 
@@ -23,7 +23,7 @@ You must do this for four times, after four "pomodoros" take a 30 minute break.
   * [Cards](#Cards)
 <!--te-->
 
->Controls
+# Controls
 
 ## ▶️ Play
 The play button activates the timer, then the seconds starts to decrease, when the timer resets, the decrement stops and an audible alarm is triggered.
@@ -62,7 +62,7 @@ The plus button allows the user to add 5 minutes to the current time on the disp
 
 ![preview](./.github/README07.gif)
 
->Cards
+# Cards
 
 The cards section contains four elements that represent environments, each one has an audio that will play during the card's activation time. 
 
@@ -96,7 +96,7 @@ The card with the flame icon contains the sound of burning wood.
 
 </section>
 
->Theme
+# Theme
 
 The application operates in two modes: "light" mode and "dark" mode, represented by the sun and moon icons.
 
