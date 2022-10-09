@@ -15,13 +15,13 @@ You must do this for four times, after four "pomodoros" take a 30 minute break.
 
 ##
 
->Theme
+# Table of contents
 
-The application operates in two modes: "light" mode and "dark" mode, represented by the sun and moon icons.
-
-![preview](./.github/README02.gif)
-
-##
+<!--ts-->
+  * [Theme](#Theme)
+  * [Controls](#Controls)
+  * [Cards](#Cards)
+<!--te-->
 
 >Controls
 
@@ -93,7 +93,16 @@ The store icon card has a coffee shop sound.
 The card with the flame icon contains the sound of burning wood.
 
 ## 
+
 </section>
+
+>Theme
+
+The application operates in two modes: "light" mode and "dark" mode, represented by the sun and moon icons.
+
+![preview](./.github/README02.gif)
+
+##
 
 >Light mode 
 ![preview](./.github/README08.gif)
@@ -116,7 +125,6 @@ The card with the flame icon contains the sound of burning wood.
 <a href="https://www.linkedin.com/in/brunas-barbosa/" target="_blank">
  <img style="width: 64px; height: 64px;" src="https://user-images.githubusercontent.com/112329870/194765299-ca4bfc22-baaf-460c-be18-65d1be1ee2d4.png">
 </a>
-&nbsp;
 &nbsp;
 &nbsp;
 <a href="mailto:brunas_barbosa@hotmail.com">
