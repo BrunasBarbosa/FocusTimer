@@ -11,7 +11,7 @@ FocusTimer was developed to help people who have difficulty to keep focus.
 Inspired by the Pomodoro Technique, based on studying in timed intervals, the time will be divided between focus time and then a break.
 
 The application suggests 25 minutes to start studying, but you can also set the time to the amount of minutes you want. After 25 minutes, take a 5 minute break.
-You must do this for four times, after four "pomodoros" take a 30 minute break.
+You must do this for four times, after four "Pomodori" take a 30 minute break.
 
 ##
 
